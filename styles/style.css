@@ -1,6 +1,6 @@
 html {
-  font-size: 10px;
-  font-family: 'Quantico', sans-serif;
+  font-size: 20px;
+  font-family: 'indecisive', sans-serif;
 }
 
 h1 {
@@ -20,15 +20,15 @@ p, li {
 }
 
 html {
-  background-color: #3a86ff;
+  background-color: #92140C;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #ffbe0b;
+  background-color: #E8F0FF;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  border: 5px pink ;
 }
 
 h1 {
