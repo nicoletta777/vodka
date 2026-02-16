@@ -1,53 +1,67 @@
-/* ----- ESTILO GENERAL ----- */
+/* ====== 90s GLOBAL STYLE ====== */
 html {
-  font-size: 16px; /* 30px era demasiado grande */
-  font-family: 'Saira', sans-serif; /* tu fuente real de Google */
-  background-color: #92140C;
+  font-family: "Courier New", monospace; /* vibe vieja escuela */
+  background: black;
+  color: #00ffcc;
 }
 
-/* ----- CUERPO ----- */
+/* ====== BODY ====== */
 body {
-  width: 600px;
+  width: 700px;
   margin: 40px auto;
-  background-color: #E8F0FF;
+  background: black;
+  border: 3px solid #ff00ff;
   padding: 20px;
-  border: 10px solid pink; /* faltaba "solid" */
-  box-sizing: border-box;
+  box-shadow: 0 0 20px #ff00ff;
 }
 
-/* ----- TITULOS ----- */
+/* ====== TITLES ====== */
 h1 {
-  font-size: 36px;
   text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  color: #ff006e;
-  text-shadow: 2px 2px 3px blue;
+  font-size: 48px;
+  color: #ff00ff;
+  text-shadow: 
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff;
+  letter-spacing: 3px;
 }
 
 h2 {
-  font-size: 22px;
   text-align: center;
+  font-size: 22px;
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
 }
 
-/* ----- TEXTO ----- */
+/* ====== TEXT ====== */
 p, li {
   font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.5px;
+  color: #00ffcc;
 }
 
-/* ----- IMAGEN (AQUI ESTA LO IMPORTANTE) ----- */
+/* ====== IMAGE 90s STYLE ====== */
 img {
   display: block;
   margin: 20px auto;
-  width: 300px;      /* tamaño visible */
-  height: auto;      /* no se deforma */
-  border-radius: 8px;
+  width: 320px;
+  height: auto;
+  border: 3px solid #00ffff;
+  box-shadow: 
+    0 0 10px #00ffff,
+    0 0 20px #ff00ff;
 }
 
+/* ====== STAR / DIVIDER ====== */
+p {
+  text-align: center;
+  font-size: 24px;
+  color: yellow;
+  text-shadow: 0 0 10px yellow;
+}
 
-img {
-  display: block;
-  margin: 0 auto;
+/* ====== LIST ====== */
+ul {
+  border-top: 1px dashed #ff00ff;
+  padding-top: 15px;
 }
