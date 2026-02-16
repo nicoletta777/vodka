@@ -1,11 +1,9 @@
-/* ====== 90s GLOBAL STYLE ====== */
 html {
   font-family: "Courier New", monospace; /* vibe vieja escuela */
   background: black;
   color: #00ffcc;
 }
 
-/* ====== BODY ====== */
 body {
   width: 700px;
   margin: 40px auto;
@@ -15,7 +13,6 @@ body {
   box-shadow: 0 0 20px #ff00ff;
 }
 
-/* ====== TITLES ====== */
 h1 {
   text-align: center;
   font-size: 48px;
@@ -34,13 +31,11 @@ h2 {
   text-shadow: 0 0 8px #00ffff;
 }
 
-/* ====== TEXT ====== */
 p, li {
   font-size: 16px;
   color: #00ffcc;
 }
 
-/* ====== IMAGE 90s STYLE ====== */
 img {
   display: block;
   margin: 20px auto;
@@ -52,7 +47,6 @@ img {
     0 0 20px #ff00ff;
 }
 
-/* ====== STAR / DIVIDER ====== */
 p {
   text-align: center;
   font-size: 24px;
@@ -60,7 +54,6 @@ p {
   text-shadow: 0 0 10px yellow;
 }
 
-/* ====== LIST ====== */
 ul {
   border-top: 1px dashed #ff00ff;
   padding-top: 15px;
