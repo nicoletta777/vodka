@@ -1,42 +1,51 @@
+/* ----- ESTILO GENERAL ----- */
 html {
-  font-size: 30px;
-  font-family: 'starborn', nunito;
-}
-
-h1 {
-  font-size: 20px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 30px;
-  text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-html {
+  font-size: 16px; /* 30px era demasiado grande */
+  font-family: 'Saira', sans-serif; /* tu fuente real de Google */
   background-color: #92140C;
 }
 
+/* ----- CUERPO ----- */
 body {
   width: 600px;
-  margin: 0 auto;
+  margin: 40px auto;
   background-color: #E8F0FF;
-  padding: 0 20px 20px 20px;
-  border: 90px pink ;
+  padding: 20px;
+  border: 10px solid pink; /* faltaba "solid" */
+  box-sizing: border-box;
 }
 
+/* ----- TITULOS ----- */
 h1 {
+  font-size: 36px;
+  text-align: center;
   margin: 0;
   padding: 20px 0;
   color: #ff006e;
-  text-shadow: 3px 3px 1px blue;
+  text-shadow: 2px 2px 3px blue;
 }
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+/* ----- TEXTO ----- */
+p, li {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* ----- IMAGEN (AQUI ESTA LO IMPORTANTE) ----- */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;      /* tamaño visible */
+  height: auto;      /* no se deforma */
+  border-radius: 8px;
+}
+
 
 img {
   display: block;
